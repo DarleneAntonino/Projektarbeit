@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        <title>Projektarbeit</title>
+    </head>
+<body>
+    
+    <div class="center" aria-label="main">
+
+        <h1>Heading of the main content</h1>
+        <div class="" >
+            <div class="">     
+                <p class="accessibility-text" aria-label="textarea">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        
+        <div class="">
+            <img class="center img-portrait" src="./img/banana.jpeg" alt="">
+            <img class="img-landscape" src="./img/dog_1.JPG" alt="black and white dog laying in grass">
+        </div>
+
+        <div aria-label="section" role="form" class="form">
+            <h3>Comment:</h3>
+            <div id="error_div" role="alert">
+                <p class="accessibility-text" id="error_msg"></p>
+            </div>
+            <p class="accessibility-text">Fields that are bold and marked with a '*' are required. (Like the E-Mail field)</p>
+            <form aria-label="form">
+                <label name="email" for="email"><b>E-Mail*</b></label>
+                <input role="text" name="email" id="email" type="email" placeholder="E-Mail" aria-label="your email" aria-required="true" required>
+
+                <label name="subject" for="subject">Subject</label>
+                <input role="text" name="subject" id="subject" type="text" placeholder="Subject" aria-label="subject">
+
+                <label name="content" for="content"><b>Content*</b></label>
+                <input role="textbox" name="content" id="content" type="text" aria-label="content" aria-required="true" required>
+
+                <button role="button" name="send" id="submit_button" aria-label="send" type="submit" onmouseenter="check()">Send</button>
+            </form>
+        </div>
+    </div>
+
+    
+    
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>

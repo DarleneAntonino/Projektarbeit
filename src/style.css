@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accessibility-text{
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 2.25em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.16em;
+}
+
+.float-right{
+    align-self: right;
+}
+
+.center{
+    width: 35%;
+    padding-left: min(32.5%, 50%);
+    padding-right: min(32.5%, 50%);
+}
+
+.img-portrait{
+    width: 25%;
+    height: 50%;
+    padding-left: 37.5%;
+    padding-right: 37.5%;
+}
+
+.img-landscape{
+    width: 50%;
+    height: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.form{
+    display: table-caption;
+    margin-top: 10%;
+}
+
+.form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 450px;
+    border: 1px black solid;
+    border-radius: 5%;
+    text-align: start;
+}
+
+#submit_button{
+    height: 31px;
+    width: 90px;
+    font-weight: 600;
+}
+
+#content{
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+#error_div p{
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.error{
+    border: 3px red solid !important;
+}
